@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 
 # WIP
 # TODO clean this up
@@ -17,7 +17,7 @@ editor = os.getenv('EDITOR')
 #domain = "khuedoan.com"
 #terraform_workspace = "khuedoan"
 
-seed_rep = "github.com/davmobi/homelab"
+seed_repo = "github.com/davmobi/homelab"
 domain = "lab.misc.mobi"
 terrafor_workspace = "davmobi"
 
