@@ -12,12 +12,18 @@ import platform
 import sys
 
 editor = os.getenv('EDITOR')
-seed_repo = "github.com/khuedoan/homelab"
-domain = "khuedoan.com"
-terraform_workspace = "khuedoan"
 
-if sys.version_info < (3, 10, 0):
-    raise Exception("Must be using Python >= 3.10.0")
+#seed_repo = "github.com/khuedoan/homelab"
+#domain = "khuedoan.com"
+#terraform_workspace = "khuedoan"
+
+seed_rep = "github.com/davmobi/homelab"
+domain = "lab.misc.mobi"
+terrafor_workspace = "davmobi"
+
+###  MODIFIED FROM (3,10,0) ###
+if sys.version_info < (3, 8, 0):
+    raise Exception("Must be using Python >= 3.8.0")
 
 # confirm text editor
 editor = str(input(f"Text editor ({editor}): ") or editor)
