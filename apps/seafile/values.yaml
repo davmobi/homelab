@@ -6,7 +6,7 @@ seafile:
       annotations:
         cert-manager.io/cluster-issuer: letsencrypt-prod
       hosts:
-        - host: &host seafile.lab.misc.mobii
+        - host: &host seafile.lab.misc.mobi
           paths:
             - path: /
               pathType: Prefix

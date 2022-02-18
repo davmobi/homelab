@@ -19,7 +19,7 @@ editor = os.getenv('EDITOR')
 
 seed_repo = "github.com/davmobi/homelab"
 domain = "lab.misc.mobi"
-terrafor_workspace = "davmobi"
+terraform_workspace = "davmobi"
 
 ###  MODIFIED FROM (3,10,0) ###
 if sys.version_info < (3, 8, 0):

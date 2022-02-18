@@ -10,7 +10,7 @@ vault:
       annotations:
         cert-manager.io/cluster-issuer: letsencrypt-prod
       hosts:
-        - host: &host vault.lab.misc.mobii
+        - host: &host vault.lab.misc.mobi
       tls:
         - secretName: vault-tls-certificate
           hosts:

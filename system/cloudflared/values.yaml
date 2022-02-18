@@ -5,8 +5,8 @@ cloudflared:
     tunnel: homelab
     ingress:
       # It is safe to put a wildcard here
-      # Please see https://homelab.lab.misc.mobii/reference/faq.html#is-it-safe-to-use-wildcard-in-cloudflare-tunnel-ingress-config
-      - hostname: '*.lab.misc.mobii'
+      # Please see https://homelab.lab.misc.mobi/reference/faq.html#is-it-safe-to-use-wildcard-in-cloudflare-tunnel-ingress-config
+      - hostname: '*.lab.misc.mobi'
         service: https://ingress-nginx-controller.ingress-nginx
         originRequest:
           noTLSVerify: true

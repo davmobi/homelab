@@ -14,7 +14,7 @@ hajimari:
       annotations:
         cert-manager.io/cluster-issuer: letsencrypt-prod
       hosts:
-        - host: &host home.lab.misc.mobii
+        - host: &host home.lab.misc.mobi
           paths:
             - path: /
               pathType: Prefix

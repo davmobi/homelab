@@ -6,4 +6,4 @@ cert-manager:
       enabled: true
 
 issuer:
-  email: mail@lab.misc.mobii
+  email: mail@lab.misc.mobi

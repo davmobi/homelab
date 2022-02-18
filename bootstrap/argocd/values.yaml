@@ -45,7 +45,7 @@ argo-cd:
       annotations:
         cert-manager.io/cluster-issuer: letsencrypt-prod
       hosts:
-        - &host argocd.lab.misc.mobii
+        - &host argocd.lab.misc.mobi
       tls:
         - secretName: argocd-tls-certificate
           hosts:

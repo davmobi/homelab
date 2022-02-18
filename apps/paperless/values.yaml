@@ -6,7 +6,7 @@ paperless:
       annotations:
         cert-manager.io/cluster-issuer: letsencrypt-prod
       hosts:
-        - host: &host paperless.lab.misc.mobii
+        - host: &host paperless.lab.misc.mobi
           paths:
             - path: /
               pathType: Prefix

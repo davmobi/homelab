@@ -1,6 +1,6 @@
 #!/bin/sh
 
-curl -fks --connect-timeout 5 https://git.lab.misc.mobii \
+curl -fks --connect-timeout 5 https://git.lab.misc.mobi \
     || extra_args="--values values-seed.yaml"
 
 helm template \

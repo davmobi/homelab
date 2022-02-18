@@ -5,4 +5,4 @@
 
 - name: Wait for the servers to comes up
   wait_for_connection:
-    timeout: 600
+    timeout: 1200

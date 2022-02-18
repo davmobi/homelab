@@ -8,7 +8,7 @@ metadata:
 spec:
   ingressClassName: nginx
   rules:
-  - host: &host registry.lab.misc.mobii
+  - host: &host registry.lab.misc.mobi
     http:
       paths:
       - pathType: ImplementationSpecific

@@ -1,6 +1,6 @@
 trow:
   trow:
-    domain: registry.lab.misc.mobii
+    domain: registry.lab.misc.mobi
     # user: user
     # password: password
     validation:
@@ -19,7 +19,7 @@ trow:
       cert-manager.io/cluster-issuer: letsencrypt-prod
       nginx.ingress.kubernetes.io/proxy-body-size: '0'
     hosts:
-      - host: &host registry.lab.misc.mobii
+      - host: &host registry.lab.misc.mobi
         paths:
           - /
     tls:

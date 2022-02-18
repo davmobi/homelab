@@ -5,7 +5,7 @@ gitea:
     annotations:
       cert-manager.io/cluster-issuer: letsencrypt-prod
     hosts:
-      - host: &host git.lab.misc.mobii
+      - host: &host git.lab.misc.mobi
         paths:
           - path: /
             pathType: Prefix
@@ -20,7 +20,7 @@ gitea:
     config:
       server:
         LANDING_PAGE: explore
-        ROOT_URL: https://git.lab.misc.mobii
+        ROOT_URL: https://git.lab.misc.mobi
   persistence:
     storageClass: longhorn
   postgresql:
